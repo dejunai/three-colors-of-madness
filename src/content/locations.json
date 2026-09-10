@@ -1,0 +1,101 @@
+[
+  {
+    "id": "rose_garden",
+    "name": "Ophion Club — Rose Garden",
+    "blurb": "Six men in a half-circle. No powder burns. No exit wounds. Thirty yards off: a woman and a boy the report will call transients.",
+    "examine": [
+      {
+        "id": "bodies_six",
+        "label": "The six in evening dress",
+        "text": "Wexford. Fenn. Corliss. Kessler. Pruitt. And one man you cannot place — watch stopped at 3:17, maker's plate filed smooth. Each: a single black hole above the bridge of the nose. No scorched collars. No answering wound at the back of the skull.",
+        "facts": ["no_exit_wounds", "no_powder", "sixth_unknown"],
+        "perception": 10
+      },
+      {
+        "id": "mother_son",
+        "label": "Beyond the birches",
+        "text": "A woman and a boy. Clothes poor but not destitute — people who expected to be somewhere else soon. Whatever was done was not done clean. You write unidentified female, colored — unidentified male, colored, minor, presumed related. Then, too quickly: Transients.",
+        "facts": ["mother_son", "transients_lie"],
+        "perception": 12
+      },
+      {
+        "id": "kessler_knife",
+        "label": "Under a hedge root",
+        "text": "Otto Kessler's boning knife, wiped too clean. Bagged. Tagged. It has never in its life been used on a hog.",
+        "facts": ["kessler_knife"],
+        "collectible": "knife",
+        "perception": 5
+      }
+    ]
+  },
+  {
+    "id": "precinct",
+    "name": "Widow's Bight Precinct",
+    "blurb": "Your desk. Odell's shadow. The file that wants a simpler shape.",
+    "examine": [
+      {
+        "id": "own_file",
+        "label": "Your preliminary notes",
+        "text": "You wrote EIGHT in a hand deliberately larger than usual. Odell's report will say six. Whatever ends, your file will say eight.",
+        "facts": ["eight_not_six"],
+        "perception": 4
+      }
+    ]
+  },
+  {
+    "id": "parish",
+    "name": "St. Brendan's Parish",
+    "blurb": "Incense, damp stone, a register that remembers more than it confesses.",
+    "examine": [
+      {
+        "id": "parish_register",
+        "label": "Parish register — Fenn",
+        "text": "Aldous Fenn: unusual insistence, twice, on burial beside the club rather than beside his wife. Behan's hand is steady. The margin is not.",
+        "facts": ["fenn_burial"],
+        "perception": 7
+      }
+    ]
+  },
+  {
+    "id": "kessler_shop",
+    "name": "Kessler's on Pickman Street",
+    "blurb": "Shutters drawn. The ledger face-down. A widow who will not be steered forever.",
+    "examine": [
+      {
+        "id": "shop_ledger",
+        "label": "Shop ledger",
+        "text": "Withdrawals that do not match the meat trade. A line item in a private hand: CLUB — PARCEL. No amount. Only a date: last Thursday of the month.",
+        "facts": ["kessler_parcel"],
+        "perception": 8
+      }
+    ]
+  },
+  {
+    "id": "ophion_club",
+    "name": "Ophion Club — Bar",
+    "blurb": "In uniform they pour what you order. Out of uniform they begin to talk near you.",
+    "examine": [
+      {
+        "id": "membership_rolls",
+        "label": "Membership rolls",
+        "text": "Five names you know. No sixth. A man can sit at that table for years and leave no more trace than a chair leaves of weight.",
+        "facts": ["sixth_unseen"],
+        "perception": 9
+      }
+    ]
+  },
+  {
+    "id": "walter_room",
+    "name": "Rented Room above the Cobbler",
+    "blurb": "Corkboard. Twine. Two coats by the door. A flask that does not lie about what it does.",
+    "examine": [
+      {
+        "id": "second_notebook",
+        "label": "Private notebook",
+        "text": "Redundant to the board in every particular. Not because you trust the board less — because you have begun to trust yourself less than paper. Presentation can drift. Bones do not.",
+        "facts": ["redundant_evidence"],
+        "perception": 5
+      }
+    ]
+  }
+]
