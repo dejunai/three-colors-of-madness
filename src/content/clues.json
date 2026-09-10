@@ -1,0 +1,175 @@
+{
+  "facts": {
+    "no_exit_wounds": {
+      "id": "no_exit_wounds",
+      "title": "No Exit Wounds",
+      "stable": "Each cultist: single cranial entry, no exit, no powder burns. The bullet arrived; it did not travel.",
+      "drift": [
+        "Entry wounds present as coin-pressed wax. Exit absent as if never owed.",
+        "The skulls refuse the second hole the profession requires."
+      ]
+    },
+    "no_powder": {
+      "id": "no_powder",
+      "title": "No Powder Burns",
+      "stable": "Collars unscorched. Distance or something that never needed a barrel.",
+      "drift": ["No powder. No scorch. As if the holes were requested."]
+    },
+    "sixth_unknown": {
+      "id": "sixth_unknown",
+      "title": "Unknown Male",
+      "stable": "Sixth body: ~50–60, club dress, watch stopped 3:17, maker filed smooth. No name in membership rolls.",
+      "drift": [
+        "The sixth declines every category: victim, suspect, witness, name.",
+        "UNKNOWN MALE — a blank that holds the file open."
+      ]
+    },
+    "mother_son": {
+      "id": "mother_son",
+      "title": "Woman and Boy",
+      "stable": "Unidentified female and male minor, colored, presumed related. Not destitute. Packed for elsewhere.",
+      "drift": [
+        "Mother and son — easiest to disappear, hardest to unwrite once written as eight.",
+        "Their clothes expected another town."
+      ]
+    },
+    "transients_lie": {
+      "id": "transients_lie",
+      "title": "\"Transients\"",
+      "stable": "Official convenience. Closes doors: no address, no employer, no wire. Your file still says eight.",
+      "drift": [
+        "Transients — a word that files absence as conclusion.",
+        "The town's preferred silence has a name."
+      ]
+    },
+    "eight_not_six": {
+      "id": "eight_not_six",
+      "title": "Eight, Not Six",
+      "stable": "Odell: six members. You: eight people. Your hand wrote EIGHT large.",
+      "drift": ["Six is the report. Eight is the truth the file keeps."]
+    },
+    "odell_pressure": {
+      "id": "odell_pressure",
+      "title": "Odell's Shape",
+      "stable": "Captain wants a shape that holds: six respectable men, gas-adjacent silence. Not eight.",
+      "drift": ["He took the pencil. He did not cross anything out. That was worse."]
+    },
+    "official_six": {
+      "id": "official_six",
+      "title": "Official Count: Six",
+      "stable": "Department framing: six club members. The woman and boy are a filing matter.",
+      "drift": ["Six members are dead. The other two are paperwork."]
+    },
+    "behan_declined": {
+      "id": "behan_declined",
+      "title": "Behan Declined",
+      "stable": "Father Behan invited twice to sit with them; declined twice.",
+      "drift": ["A priest knows when a table is set for something other than supper."]
+    },
+    "fenn_burial": {
+      "id": "fenn_burial",
+      "title": "Fenn's Burial Wish",
+      "stable": "Dr. Fenn insisted twice on burial beside the club, not his wife. Parish record confirms.",
+      "drift": [
+        "FENN DID NOT FEAR DEATH. HE FEARED BEING LEFT BEHIND.",
+        "Beside the club — as if proximity were a kind of homecoming."
+      ]
+    },
+    "they_spoke_of_her": {
+      "id": "they_spoke_of_her",
+      "title": "They Spoke of Her",
+      "stable": "Toward the end the six stopped speaking of power. They spoke tenderly of a maternal figure who would have them home.",
+      "drift": [
+        "SHE'LL HAVE US HOME. SHE'S NO DIFFERENT FROM ANY MOTHER.",
+        "Benevolent maternal power — the shape they sought."
+      ]
+    },
+    "kessler_parcel": {
+      "id": "kessler_parcel",
+      "title": "Kessler's Parcel",
+      "stable": "Kessler carried a butcher-paper parcel into a private room; left without it. Ledger notes CLUB — PARCEL on a last-Thursday.",
+      "drift": ["What the butcher brought was not meat."]
+    },
+    "kessler_used": {
+      "id": "kessler_used",
+      "title": "Kessler Used",
+      "stable": "Shop money bought a chair among men who called him tradesman and less behind his back.",
+      "drift": ["Used and despised in the same evening."]
+    },
+    "kessler_knife": {
+      "id": "kessler_knife",
+      "title": "Boning Knife",
+      "stable": "Kessler's knife, wiped clean, under hedge root. Bagged and tagged.",
+      "drift": ["Too clean for a butcher's honest night."]
+    },
+    "monthly_meetings": {
+      "id": "monthly_meetings",
+      "title": "Last Thursdays",
+      "stable": "Six men met last Thursday of every month for over two years.",
+      "drift": ["A calendar of devotion disguised as club night."]
+    },
+    "sixth_unseen": {
+      "id": "sixth_unseen",
+      "title": "The Sixth Never Signed",
+      "stable": "Sixth never signed a bill, never arrived by front door, absent from membership rolls.",
+      "drift": ["A chair remembers weight. The rolls do not remember him."]
+    },
+    "maternal_power": {
+      "id": "maternal_power",
+      "title": "Maternal Power",
+      "stable": "Cult sought benevolent maternal power — home, not dominion. Kessler: She's no different from any mother.",
+      "drift": [
+        "Not a throne. A return. That is what they asked for.",
+        "Constance — the name the distortion will learn later."
+      ]
+    },
+    "observers_refuse": {
+      "id": "observers_refuse",
+      "title": "Estate Crew Refuse",
+      "stable": "Groundsmen at the tunnel mouth: flat refusal. Ground is wrong. Curiosity is not their duty.",
+      "drift": ["They do not go down. They are correct."]
+    },
+    "redundant_evidence": {
+      "id": "redundant_evidence",
+      "title": "Second Notebook",
+      "stable": "Private notebook redundant to the board. Presentation may drift; underlying facts recoverable.",
+      "drift": ["Trust paper more than the hand that wrote it."]
+    }
+  },
+  "links": [
+    {
+      "id": "cult_six",
+      "requires": ["monthly_meetings", "maternal_power", "behan_declined"],
+      "title": "Six Seeking Her",
+      "text": "Not a conspiracy of power. A conspiracy of return — six elites asking a maternal force to take them home.",
+      "perception": 15,
+      "spine": true
+    },
+    {
+      "id": "erasure",
+      "requires": ["mother_son", "transients_lie", "eight_not_six"],
+      "title": "Who Gets Counted",
+      "text": "The woman and boy were easiest to disappear. Official six. Your eight. The town's silence has a body count.",
+      "perception": 12,
+      "spine": true
+    },
+    {
+      "id": "no_ballistics",
+      "requires": ["no_exit_wounds", "no_powder", "kessler_knife"],
+      "title": "Not a Shooting",
+      "text": "Wounds without travel. Knife wiped clean. Whatever killed them did not need the tools of men — or used men as the tool.",
+      "perception": 14,
+      "spine": true
+    },
+    {
+      "id": "sixth_hole",
+      "requires": ["sixth_unknown", "sixth_unseen"],
+      "title": "The Load-Bearing Blank",
+      "text": "Some blanks in a case file are not oversights. The unnamed sixth is load-bearing.",
+      "perception": 10,
+      "spine": false
+    }
+  ],
+  "endingThreshold": 55,
+  "spineRequired": ["cult_six", "erasure", "no_ballistics"]
+}

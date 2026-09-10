@@ -1,0 +1,89 @@
+[
+  {
+    "id": "odell",
+    "name": "Captain Odell",
+    "role": "Precinct Captain",
+    "locationId": "precinct",
+    "examine": "Odell keeps his desk clear. The only paper visible is a draft headed GAS-MAIN — penciled, then abandoned. His eyes never leave your collar.",
+    "consult": {
+      "locked": false,
+      "lines": [
+        "Six members are dead. The other two are a filing matter. You understand the difference.",
+        "I am not asking you to invent a gas main. I am asking you not to invent a scandal.",
+        "Write what will hold. Not what will haunt."
+      ],
+      "facts": ["official_six", "odell_pressure"],
+      "perception": 8
+    }
+  },
+  {
+    "id": "behan",
+    "name": "Father Behan",
+    "role": "Parish Priest",
+    "locationId": "parish",
+    "examine": "Behan's hands smell of incense and soap. The parish register is open to a page he is not reading.",
+    "consult": {
+      "locked": false,
+      "lines": [
+        "They asked me twice to sit with them. I declined twice. A priest knows when a table is set for something other than supper.",
+        "Dr. Fenn insisted — twice — on being buried beside the club rather than beside his wife. I wrote it down. I did not ask why.",
+        "Toward the end they stopped speaking of power. They spoke, tenderly, of her."
+      ],
+      "facts": ["behan_declined", "fenn_burial", "they_spoke_of_her"],
+      "perception": 12
+    }
+  },
+  {
+    "id": "kessler_widow",
+    "name": "Mrs. Kessler",
+    "role": "Butcher's Widow",
+    "locationId": "kessler_shop",
+    "examine": "The shop is closed. She stands behind the counter as if the day might still open. A ledger lies face-down.",
+    "consult": {
+      "locked": false,
+      "lines": [
+        "He wore his good coat to a club that used him and despised him in the same evening.",
+        "Shop money bought him a chair among men who called him tradesman to his face.",
+        "He carried a parcel wrapped in butcher paper into a private room once. He left without it. He never said what was in it."
+      ],
+      "facts": ["kessler_parcel", "kessler_used"],
+      "perception": 10
+    }
+  },
+  {
+    "id": "barman",
+    "name": "Club Barman",
+    "role": "Ophion Club Staff",
+    "locationId": "ophion_club",
+    "examine": "He polishes a glass that is already clean. He does not look at your badge. He does not look away from it either.",
+    "consult": {
+      "locked": false,
+      "requiresCoat": true,
+      "lines": [
+        "Last Thursday of every month. Over two years. Six chairs. The sixth never signed a bill, never came by the front door.",
+        "Kessler said it more than once: She'll have us home. She's no different from any mother.",
+        "I refill glasses. I do not invent meanings for what I overhear."
+      ],
+      "facts": ["monthly_meetings", "sixth_unseen", "maternal_power"],
+      "perception": 14
+    }
+  },
+  {
+    "id": "estate_crew",
+    "name": "Estate Crew",
+    "role": "Groundsmen — Observers",
+    "locationId": "rose_garden",
+    "examine": "Three men at the tunnel mouth beyond the birches. Flat coats. Flat faces. They do not fidget. They do not volunteer.",
+    "consult": {
+      "locked": false,
+      "lines": [
+        "We do not go down there.",
+        "The ground is wrong. That is enough.",
+        "Curiosity is not a duty of this employment."
+      ],
+      "facts": ["observers_refuse"],
+      "perception": 6,
+      "observer": true
+    }
+  }
+]
